@@ -120,8 +120,8 @@ if (activeTab === 'Support A Child') {
           }}
         >
           <img
-            src="/img/IMG-20250731-WA0144.jpg"
-            alt="Descriptive Alt Text"
+            src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0144.jpg`}
+            alt=""
             style={{ width: '120%', height: 'auto', borderRadius: '8px' }}
           />
         </div>
