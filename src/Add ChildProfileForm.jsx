@@ -7,12 +7,12 @@ export default function AddChildProfileForm({ onBack }) {
       {/* Left-side images */}
       <div style={{ flex: "1", minWidth: "300px", maxWidth: "400px", paddingRight: "40px" }}>
         <img
-          src="/img/addchild01.jpg" // Replace with actual image paths
+          src={`${import.meta.env.BASE_URL}img/addchild01.jpg`} // Replace with actual image paths
           alt="Child 1"
           style={{ width: "100%", borderRadius: "8px", marginBottom: "20px" }}
         />
         <img
-          src="/img/addchild02.jpg"
+          src={`${import.meta.env.BASE_URL}img/addchild02.jpg`}
           alt="Child 2"
           style={{ width: "100%", borderRadius: "8px" }}
         />

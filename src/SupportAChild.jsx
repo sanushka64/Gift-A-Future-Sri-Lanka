@@ -19,21 +19,21 @@ function SupportAChild({ onTabChange, onSponsorClick, activeTab }) {
       name: 'Behan Gunawardhana',
       age: '10 years',
       region: 'Southern Province',
-      image: '/img/IMG-20250731-WA0155.jpg',
+      image: `${import.meta.env.BASE_URL}img/IMG-20250731-WA0155.jpg`,
       description: 'Behan loves reading books and dreams of becoming a doctor.'
     },
     {
       name: 'Nethara Aponso',
       age: '9 years',
       region: 'Central Province',
-      image: '/img/IMG-20250731-WA0157.jpg',
+      image: `${import.meta.env.BASE_URL}img/IMG-20250731-WA0157.jpg`,
       description: 'Nethara enjoys painting and wants to be an artist.'
     },
     {
       name: 'Nipuna Weerasooriya',
       age: '8 years',
       region: 'Western Province',
-      image: '/img/IMG-20250731-WA0156.jpg',
+      image: `${import.meta.env.BASE_URL}img/IMG-20250731-WA0156.jpg`,
       description: 'Nipuna loves football and hopes to play professionally.'
     },
   ];
@@ -75,7 +75,7 @@ function SupportAChild({ onTabChange, onSponsorClick, activeTab }) {
         {/* Hero Image */}
         <div style={{ marginBottom: '50px' }}>
           <img
-            src="/img/sponsor.JPG"
+            src={`${import.meta.env.BASE_URL}img/sponsor.JPG`}
             alt="Support A Child"
             style={{ width: '100%', borderRadius: '10px' }}
           />

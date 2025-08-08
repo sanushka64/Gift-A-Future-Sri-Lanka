@@ -16,7 +16,7 @@ useEffect(() => {
       {/* Hero Section */}
       <div style={{ textAlign: 'center', padding: '0 20px' }}>
         <img
-          src="/img/IMG-20250731-WA0056.jpg"
+          src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0056.jpg`}
           alt="Children"
           style={{
            width: '100%',
@@ -46,7 +46,7 @@ useEffect(() => {
         {/* Left Image */}
         <div style={{ flex: '1', minWidth: '300px', maxWidth: '400px' }}>
           <img
-            src="/img/IMG-20250731-WA0057.jpg"
+            src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0057.jpg`}
             alt=""
             style={{
               width: '100%',
@@ -254,13 +254,13 @@ useEffect(() => {
     }}
   >
     {[
-      { src: '/img/HNB.jpg', alt: 'HNB' },
-      { src: '/img/seylan.png', alt: 'Seylan' },
-      { src: '/img/boc.png', alt: 'BOC' },
-      { src: '/img/people.png', alt: "People's Bank" },
-      { src: '/img/commercial.png', alt: 'Commercial Bank' },
-      { src: '/img/nation.jpeg', alt: 'Nations Trust' },
-      { src: '/img/sampath.png', alt: 'Sampath' },
+      { src: `${import.meta.env.BASE_URL}img/HNB.jpg`, alt: 'HNB' },
+      { src: `${import.meta.env.BASE_URL}img/seylan.png`, alt: 'Seylan' },
+      { src: `${import.meta.env.BASE_URL}img/boc.png`, alt: 'BOC' },
+      { src: `${import.meta.env.BASE_URL}img/people.png`, alt: "People's Bank" },
+      { src: `${import.meta.env.BASE_URL}img/commercial.png`, alt: 'Commercial Bank' },
+      { src: `${import.meta.env.BASE_URL}img/nation.jpeg`, alt: 'Nations Trust' },
+      { src: `${import.meta.env.BASE_URL}img/sampath.png`, alt: 'Sampath' },
     ].map((bank, idx) => (
       <label
         key={idx}

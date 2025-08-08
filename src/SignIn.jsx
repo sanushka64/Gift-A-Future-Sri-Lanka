@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NGODashboard from "./NGODashboard";
 import AdminDashboard from "./AdminDashboard";
-import loginImage from "/img/IMG-20250731-WA0151.jpg";
 
 export default function SignIn({ onTabChange, activeTab, onSponsorClick }) {
   const [userRole, setUserRole] = useState(null);
@@ -74,7 +73,7 @@ export default function SignIn({ onTabChange, activeTab, onSponsorClick }) {
       >
         <div style={{ flex: 1, maxWidth: "500px", paddingRight: "40px" }}>
           <img
-            src={loginImage}
+            src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0151.jpg`}
             alt="Gift a Future Sri Lanka"
             style={{ width: "100%", borderRadius: "10px" }}
           />

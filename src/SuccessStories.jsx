@@ -78,7 +78,7 @@ export default function SuccessStories({ onTabChange, onSponsorClick, activeTab 
 
   const stories = [
     {
-      image: '/img/IMG-20250731-WA0152.jpg',
+      image: `${import.meta.env.BASE_URL}img/IMG-20250731-WA0152.jpg`,
       alt: 'Behan',
       title: 'Behan Gunewardhana’s Path to Leadership',
       text: `Behan, a bright 12-year-old from the Southern Province, joined our initiative two years ago. At the time, he struggled with school attendance due to a lack of supplies and support at home.
@@ -88,7 +88,7 @@ Through the program, Behan received consistent mentorship, school essentials, an
 This year, Behan was elected class monitor by his peers. He now dreams of becoming a teacher so he can help children the way he was helped. His story is a testament to what sustained care and opportunity can achieve.`,
     },
     {
-      image: '/img/IMG-20250731-WA0149.jpg',
+      image: `${import.meta.env.BASE_URL}img/IMG-20250731-WA0149.jpg`,
       alt: 'Gayathra',
       title: 'Gayathra’s Journey: From Malnutrition to Joyful Recovery',
       text: `Gayathra, a 10-year-old boy, came into our program through a referral from a local shelter. When he first arrived, he was painfully thin, weak, and barely had the energy to speak. His condition was the result of prolonged malnutrition and lack of access to even the most basic medical support.

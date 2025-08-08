@@ -16,13 +16,13 @@ export default function About({ onTabChange, onSponsorClick, activeTab }) {
         {/* Left side images */}
         <div className="image-container" style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '400px', flex: 1 }}>
           <img
-            src="/img/about01.jpg"
+            src={`${import.meta.env.BASE_URL}img/about01.jpg`}
             alt="Join With Us"
             className="image"
             style={{ width: '100%', borderRadius: '15px', objectFit: 'cover' }}
           />
           <img
-            src="/img/about02.jpg"
+            src={`${import.meta.env.BASE_URL}img/about02.jpg`}
             alt="Gift a Future"
             className="image"
             style={{ width: '100%', borderRadius: '15px', objectFit: 'cover' }}

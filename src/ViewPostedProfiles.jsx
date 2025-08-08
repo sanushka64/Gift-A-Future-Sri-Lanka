@@ -8,21 +8,21 @@ export default function ViewPostedProfiles({ onBack }) {
       name: "Behan Gunawardhana",
       age: 10,
       region: "Southern Province",
-      imageUrl: '/img/IMG-20250731-WA0155.jpg',
+      imageUrl: `${import.meta.env.BASE_URL}img/IMG-20250731-WA0155.jpg`,
     },
     {
       id: 2,
       name: "Nethara Aponso",
       age: 9,
       region: "Central Province",
-      imageUrl: '/img/IMG-20250731-WA0157.jpg',
+      imageUrl: `${import.meta.env.BASE_URL}img/IMG-20250731-WA0157.jpg`,
     },
     {
       id: 3,
       name: "Nipuna Weerasooriya",
       age: 8,
       region: "Western Province",
-      imageUrl: '/img/IMG-20250731-WA0156.jpg',
+      imageUrl: `${import.meta.env.BASE_URL}img/IMG-20250731-WA0156.jpg`,
     },
   ]);
 

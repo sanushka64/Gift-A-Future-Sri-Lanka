@@ -71,12 +71,12 @@ export default function RegistrationForm() {
       {/* Left side images */}
       <div className="image-container">
         <img
-          src="/img/IMG-20250731-WA0045.jpg"
+          src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0045.jpg`}
           alt="Join With Us"
           className="image"
         />
         <img
-          src="/img/IMG-20250731-WA0055.jpg"
+          src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0055.jpg`}
           alt="Gift a Future"
           className="image"
         />

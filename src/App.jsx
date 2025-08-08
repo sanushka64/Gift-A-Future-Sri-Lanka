@@ -186,7 +186,7 @@ if (activeTab === 'Support A Child') {
   >
     {/* Image Banner */}
     <img
-      src="/img/IMG-20250731-WA0059.jpg" // Replace with your image path
+      src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0059.jpg`} // Replace with your image path
       alt="Sponsor Children"
       style={{
         width: '100%',
@@ -250,7 +250,8 @@ if (activeTab === 'Support A Child') {
   >
     {/* Image Banner */}
     <img
-      src="/img/IMG-20250731-WA0147.jpg" // Replace with your image path
+      src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0147.jpg`}
+ // Replace with your image path
       alt="Sponsor Children"
       style={{
         width: '100%',
@@ -296,7 +297,7 @@ if (activeTab === 'Support A Child') {
           }}
         >
           <img
-            src="/img/IMG-20250731-WA0148.jpg"
+            src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0148.jpg`}
             alt="Descriptive Alt Text"
             style={{ width: '120%', height: 'auto', borderRadius: '8px' }}
           />
@@ -341,7 +342,8 @@ if (activeTab === 'Support A Child') {
   >
     {/* Image */}
     <img
-      src="/img/IMG-20250731-WA0149.jpg" // Replace with your image path
+      src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0149.jpg`}
+ // Replace with your image path
       alt="Gayathra"
       style={{
         width: '400px',         // ⬅️ Increased size
@@ -414,7 +416,7 @@ if (activeTab === 'Support A Child') {
           }}
         >
           <img
-            src="/img/IMG-20250731-WA0146.jpg"
+            src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0146.jpg`}
             alt="Descriptive Alt Text"
             style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
           />
