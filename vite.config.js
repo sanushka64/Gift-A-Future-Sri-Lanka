@@ -5,5 +5,5 @@ export default defineConfig({
   plugins: [    
     tailwindcss(),  
   ],
-  base : "gift-a-future-srilanka",
+   base: '/Gift-A-Future-Sri-Lanka/'
 })
