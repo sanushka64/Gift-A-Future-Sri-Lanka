@@ -20,8 +20,8 @@ function Navbar({ onSponsorClick, onTabChange, activeTab, isLoggedIn, onLogout }
         {/* Logo */}
         <div className="h-full flex items-center">
           <img
-            src="/img/IMG-20250731-WA0146.jpg"
-            alt="Company Logo"
+            src={`${import.meta.env.BASE_URL}img/IMG-20250731-WA0146.jpg`}
+            alt=""
             className="h-full w-auto object-contain"
           />
         </div>
